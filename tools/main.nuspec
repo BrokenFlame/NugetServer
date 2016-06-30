@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Nuget.Server.Octopacked</id>
+    <version>$version$</version>
+    <authors>BrokenFlame</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+        This package is designed for automated deployment of the "Free NuGet Server
+in 5 not so easy steps" as available from http://nugetserver.net/.
+    </description>
+    <releaseNotes>
+        All credit for this project should be attributed to Nuget.org and NugetServer.net
+    </releaseNotes>
+    <language>en-US</language>
+    <projectUrl>https://github.com/BrokenFlame/NugetServer</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <iconUrl>http://nugetserver.net/gfx/logo.png</iconUrl>
+    <!-- <dependencies>
+    	<dependency id="SampleDependency" version="1.0" />
+    	</dependencies>
+    <copyright> 
+    </copyright> 
+    -->
+    <tags>Nuget, NugetServer
+    </tags>
+    <developmentDependency>
+        false
+    </developmentDependency>
+  </metadata>
+  <files>
+    <file src="**\*" />
+  </files>
+</package>
